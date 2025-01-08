@@ -95,5 +95,27 @@ Après un **one-hot encoding**, cela devient :
    - **MAE (Mean Absolute Error)** : Moyenne des erreurs absolues entre les prédictions et les valeurs réelles.
    - **RMSE (Root Mean Square Error)** : Racine carrée de la moyenne des carrés des erreurs. Donne plus de poids aux grandes erreurs.
 
+
+## DEEP LEARNING
+
+#### (a) Les couches (layers) :
+**Input Layer** : Les données que tu donnes au modèle (ex. température, humidité...).
+**Hidden Layers** : Les couches qui apprennent à détecter les motifs cachés dans les données.
+**Output Layer** : La prédiction (ex. consommation d’électricité).
+ 
+#### (b) Les poids et biais (weights and biases) :
+**Les poids** indiquent l’importance d’une connexion entre deux neurones.
+**Les biais** aident le modèle à s’ajuster pour être plus précis.
+
+#### (c) Fonction d’activation :
+**Une fonction mathématique** qui introduit de la non-linéarité pour que le modèle puisse apprendre des relations complexes. Exemple : ReLU (Rectified Linear Unit), sigmoïde, tanh.
+
+#### (d) Entraînement (training) :
+**Propagations avant (forward pass)** : Les données traversent le réseau pour donner une prédiction.
+**Rétropropagation (backpropagation)** : Le modèle ajuste les poids pour réduire l’erreur entre la prédiction et la réalité.
+
+#### (e) Fonction de coût (loss function) :
+**Une mesure** qui indique à quel point le modèle se trompe. Le but est de minimiser cette erreur. Exemple : Mean Squared Error (MSE) pour la régression.
+
 ---
 
