@@ -24,4 +24,4 @@ ville = st.selectbox("Ville :", villes_disponibles)
 st.subheader("Entrez les paramètres météorologiques pour la prédiction")
 temperature = st.number_input("Température (°C)", value=15.0)
 humidity = st.number_input("Humidité (%)", value=50.0)
-pressure = st.number_input("Pression au niveau de la
+pressure = st.number_input("Pression au niveau de la(%)", value=50.0)
