@@ -2,8 +2,7 @@
 # Projet de Prédiction de la Demande Énergétique Quotidienne
 
 ## Description
-
-Ce projet utilise des données climatiques, énergétiques, et démographiques pour prédire la demande énergétique quotidienne d'une ville Toulouse en occurence.
+Ce projet utilise des données climatiques, énergétiques, et démographiques pour prédire la demande énergétique quotidienne d'une ville, ici  il s'agit de Toulouse .
 
 ## Structure
 - `data/brut/` : Données brutes téléchargées.
@@ -15,3 +14,27 @@ Ce projet utilise des données climatiques, énergétiques, et démographiques p
 - `results/` : Résultats des prédictions et visualisations.
 - `scripts/` : Scripts Python réutilisables.
 - `lexique.md` : Vocabulaire explicatif des termes utilisés dans ce projet.
+
+## SOURCES
+### DONNEES 
+https://www.data.gouv.fr/fr/
+https://data.toulouse-metropole.fr/pages/accueil/
+(et un autre site que j'ai oublié 😭) 
+
+### COURS
+L ESSENTIEL DE PYTHON
+
+https://www.linkedin.com/learning/l-essentiel-de-python?u=56745737
+
+PYTHON POUR LA DATASCIENCE
+
+https://www.linkedin.com/learning/python-pour-la-data-science?u=56745737
+
+### AUTRES
+SCIKIT-LEARN
+
+https://scikit-learn.org
+
+RANDOM FOREST
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
