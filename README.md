@@ -1,5 +1,5 @@
 # YBOOST IA - DATA
-# Projet de Prédiction de la Demande Énergétique Quotidienne
+#  Projet de Prédiction de la Consommation Énergétique d'une Ville.
 
 ## Description
 Ce projet utilise des données climatiques, énergétiques, et démographiques pour prédire la demande énergétique quotidienne d'une ville, ici  il s'agit de Toulouse .
